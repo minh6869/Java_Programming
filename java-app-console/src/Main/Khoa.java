@@ -11,8 +11,8 @@ package Main;
 public class Khoa {
     public String tenKhoa;
     
-    public void set_khoa(String khoa){
-    
+    public  Khoa(String khoa){
+        
     }
     
 }

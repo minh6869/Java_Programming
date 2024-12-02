@@ -1,18 +1,28 @@
-# Java_Programming
+# Java Programming
 
-Đây là repo chứa phần code thầy hướng dẫn mình làm sau mỗi buổi học. Mọi người lên đây để theo dõi. Xin cảm ơn!
-Đây là hướng dẫn trên Windows có thể sẽ có một số bước không đúng với Mac hay Linux hoặc đơn giản mọi người chỉ muốn tải source thì có thể vào phần realses để tải
+## Giới thiệu
+
+Repository này chứa mã nguồn được thầy hướng dẫn sau mỗi buổi học. Hướng dẫn này được viết cho Windows, có thể sẽ khác với Mac hoặc Linux. Nếu chỉ cần source code, bạn có thể tải trực tiếp từ phần releases.
 
 ## Cài đặt Git
 
-- Link download : [Git for Win](https://git-scm.com/downloads/win)
+### 1. Tải Git
+- Tải Git cho Windows: [Git for Windows](https://git-scm.com/downloads/win)
 
-Kiểm tra cài đặt
- ```
- git --version 
- ```
+### 2. Kiểm tra cài đặt
 
-![image](https://github.com/user-attachments/assets/00a14e02-415d-4431-8417-c67808cf0ea4)
+Sau khi cài đặt, mở Terminal và chạy lệnh:
+
+```bash
+git --version
+```
+
+Kết quả sẽ hiển thị phiên bản Git đã cài đặt:
+
+![Kiểm tra phiên bản Git](https://github.com/user-attachments/assets/00a14e02-415d-4431-8417-c67808cf0ea4)
+
+---
+
 
 
 trong trường hợp không hiện thì edit environment 
@@ -51,6 +61,7 @@ tới bước này hãy thử chọn một site để down về là được, ch
 ![image](https://github.com/user-attachments/assets/6b74018a-2faf-4b21-8444-0872cb9cc4e9)
 
 Quá trình cài đặt cũng không có gì khó, vì cài cái này cũng chỉ để chạy git trên NetBeans nên cũng chỉ cần các package cơ bản của cygwin nên trong quá trình cài cũng chỉ next next next và finish...
+![image](https://github.com/user-attachments/assets/51bc620b-db34-4d9b-a722-500562d8be2a)
 
 Sau khi cài xong khởi động lại NetBeans
 Open in Terminal trong Tool thì được kết quả:
@@ -141,7 +152,7 @@ Code thay đổi ngay lập tức, điều này làm cho quản lí code trong c
 ## Lưu ý
 
 
-Lí do mà mình checkout được sang nhánh khác là bởi vì ở nhánh hiện tại mình chưa từng sửa code hay build lại code, thì mình mới checkout được. Nếu đã sửa code mà vẫn muốn checkout được thì cần commit lại
+Lí do mà mình checkout được sang nhánh khác là bởi vì ở nhánh hiện tại mình chưa từng sửa code hay build lại code, thì mình mới checkout được. Nếu đã sửa code mà vẫn muốn checkout được thì cần commit lại. Hiểu nôm na là muốn nhảy sang nhánh khác chơi thì cần commit lại tất cả những file đã thay đổi. Chỉ áp dụng cho những file có từ đầu của nhánh, còn file tạo mới hay thư mục tạo mới thì không cần add, commit vẫn checkout được bình thường 
 
 ![image](https://github.com/user-attachments/assets/15555a26-83a1-4c17-80e9-5b4a7d2815f6)
 
@@ -153,10 +164,10 @@ git add ./src/Main/Main.java
 ```
 ![image](https://github.com/user-attachments/assets/d09649a4-c86a-45cf-a76a-8f2e550e2f5e)
 
+kiểm tra trạng thái
 ```
 git status
 ```
-kiểm tra trạng thái
 
 sau đó commit lại
 
@@ -194,3 +205,5 @@ Khi nào mình up code mới thì chỉ gõ
 ```
 git pull
 ```
+
+sau đó nếu cần phải commit thì commit ở nhánh hiện tại lại rồi checkout sang nhánh mới nhất

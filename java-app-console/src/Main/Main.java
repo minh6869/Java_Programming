@@ -15,35 +15,49 @@ public class Main {
     public void print(){
         System.out.println(i);
     }
-    
     public static void main(String[] args){
-        SinhVien.school_name = "hust";
-        System.out.println(SinhVien.school_name);
         
-        SinhVien x = new SinhVien(3);
-        SinhVien.bang_diem[1] = 3;
-        x.bang_diem[0] = 7;
-        x.bang_diem = {4,6,7};
-        x.kt.tenKhoa = "httt";
-        x.kt.set_khoa("");
-        x.kt = new Khoa();
+        SoNguyen a = new SoNguyen(1);
+        SoNguyen b = new SoNguyen(13);
+        int c = 100;
+        a.swap(b);
+        a.swap(c);
+        System.out.println(a.n);
+        System.out.println(c);
+//       
+        String s1 = "abc";
+        String s2 = "xyz";
+        String s3 = s1;
+        System.out.println(s1==s3);
         
-        System.out.println(x.bang_diem[0]);
-        
-        x.school_name = "tlu";
-//        SinhVien.MonHoc b = x.new MonHoc();
-        x.set_id(1);
-        SinhVien y = new SinhVien(4);
-        y.set_id(3);
-        System.out.println(y.school_name);
-        System.out.println(y.gpa);
-        
-        
-        X a = new X();
-        a.abc = 2;
-        
-//        System.out.println(a[0]);
-//        System.out.println("hi");
+//        String s4 = "ABC";
+//        s3 = "jqk";
+//        System.out.println(s1==s3);
+//        String s5 = new String("AbC");
+//        String s6 = new String("AbCd");
+//        System.out.println(s5 == s6);
+//        System.out.println(s5.equals(s6));
+//        String s7 = s5;
+//        System.out.println(s7 == s5);
+//        s7.toLowerCase();
+//        System.out.println(s7 == s5);
+//        System.out.println(s7);
+//        
+//        StringBuffer s8 = new StringBuffer("hi");
+//        StringBuffer s9 = s8;
+//        System.out.println(s8 == s9);
+//        s9.append("gh");
+//        System.out.println(s8);
+//        System.out.println(s9);
+//        System.out.println(s8 == s9);
+//
+
+//           SoNguyen a = new SoNguyen(1);
+//           SoNguyen b = new SoNguyen(1);
+//           System.out.println(a==b);
+//           System.out.println(a.equals(b));
     }
+    
+    
     
 }

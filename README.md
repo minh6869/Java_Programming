@@ -207,3 +207,6 @@ git pull
 ```
 
 sau đó nếu cần phải commit thì commit ở nhánh hiện tại lại rồi checkout sang nhánh mới nhất
+
+Nếu bạn gặp lỗi hoặc còn vướng mắc trong quá trình sử dụng git để theo dõi bài học, bạn có thể vào phần Discussions để đăng bài 
+![image](https://github.com/user-attachments/assets/9c0d39ea-21fa-4c98-b217-62eaf501d2d3)

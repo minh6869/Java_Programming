@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Main;
+package main;
 
 /**
  *
@@ -14,6 +14,8 @@ public class SoNguyen {
     public SoNguyen(int n) {
         this.n = n;
     }
+    
+    
     public boolean equals(Object obj) {
 //        SoNguyen moi = (SoNguyen)obj;
         return  this.n == ((SoNguyen)obj).n;
